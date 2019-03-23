@@ -1,0 +1,197 @@
+// Place all the styles related to the eronotes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'variables' ;
+
+.wrapper{
+  width:500px;
+  font-family: "Untitled Sans";
+  color: $mycolor;
+  margin: 0 auto;
+  margin-top: 100px;
+
+}
+
+.form{
+  margin-top: 100px;
+
+}
+
+.link-1 , .link-2 {
+  color: $mycolor;
+  a{
+    color: $mycolor;
+    text-decoration: none;
+    &:visited { color: $mycolor}
+  }
+}
+
+.bottom{
+  margin: 0 auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 300px;
+  font-family: "Untitled Sans";
+  text-transform: uppercase;
+  // position: relative;
+
+}
+
+.illustration{width: 51px;}
+.hidden{display: none;}
+.show{display: flex;}
+
+//////////////////////// BUTTONS //////
+
+#browse-btn {
+  padding: 15px;
+  padding-left: 0px;
+  display: inline-block;
+  cursor: pointer;
+}
+#browse-btn{
+  padding-top: 0px;
+}
+
+.disabled{
+  cursor: not-allowed;
+}
+.able{
+  cursor: pointer;
+}
+
+#customTxt{
+  color: grey;
+  cursor: default;
+}
+
+#upTxt{
+  color:rgb(50,50,50);
+}
+
+#remove{
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 3px;
+    &:hover{color: red;
+}}
+/////////
+textarea{
+  -webkit-appearance: none;
+  border: none;
+  border-top: dotted 1px $mycolor;
+  border-bottom: dotted 1px $mycolor;
+  background-color: transparent;
+  width: 100%;
+  color:$mycolor;
+  resize: none;
+  padding-top: 10px;
+  font-family: "Untitled Sans";
+
+
+}
+
+textarea:focus {
+    outline: none !important;
+}
+
+/////
+.back-link{
+  a{color: $mycolor; text-decoration: none;
+  &:visited{color: $mycolor; text-decoration: none;}
+  }
+}
+
+//////////
+.question{
+  color:  grey;
+  font-size: 16px;
+}
+
+
+#mailus{
+  a{color: $mycolor;
+
+  }
+}
+
+.abouttile{
+  font-size: 22px;
+}
+
+.faq{
+  height: 100%;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.up{
+
+}
+
+#c-arrow{
+  cursor: pointer;
+svg {
+  margin-left: 20px;
+  height: 10px;
+}}
+
+#close-faq{
+  cursor: pointer;
+  display: none;
+svg {
+  display: inline-flex;
+  margin-left: 20px;
+  width: 20px;
+}}
+
+#a-arrow{
+svg {
+  margin-left: 20px;
+  height: 10px;
+}}
+
+#close-a{
+  display: none;
+svg {
+  display: inline-flex;
+  margin-left: 20px;
+  width: 20px;
+}}
+
+///
+table{
+  border-collapse: collapse;
+
+}
+td , tr {
+  text-align: left;
+  border: 1px solid white;
+}
+
+//////
+#percent{
+  margin-left: 15px;
+  font-size: 14px;
+
+}
+
+#padup{
+  margin-top: 20px;
+}
+
+.faq-c{
+display: none;
+height: 100%;
+width:500px;
+}
+
+.faq-c-phone{
+display: none;
+height: 562px;
+width:300px;
+font-size: 15px;
+}
