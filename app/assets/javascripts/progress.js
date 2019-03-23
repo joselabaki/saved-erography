@@ -1,6 +1,6 @@
 $(document).on('turbolinks:load', function() {
 
-  $('form').on('submit' , function(event){
+  $('.form-up').on('submit' , function(event){
   event.preventDefault();
 
   var formData = new FormData($('form')[0]);

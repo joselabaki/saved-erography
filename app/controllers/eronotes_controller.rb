@@ -1,5 +1,6 @@
 class EronotesController < ApplicationController
 
+before_action :authenticate_user! , only: [:show, :index]
 
 
   def index
@@ -47,7 +48,7 @@ end
 private
 
 def eronote_params
-  params.require(:eronote).permit(:eromage , :body )
+  params.require(:eronote).permit(:eromage , :body , :user)
 end
 
 end

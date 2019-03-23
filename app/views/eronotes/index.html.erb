@@ -1,6 +1,5 @@
+<% if user_signed_in? && current_user.admin? %>
 <div class="wrapper">
-
-
 <table style="width:100%">
   <tr>
     <th>id</th>
@@ -27,3 +26,6 @@
   <% end %>
 </table>
 </div>
+<% else %>
+<p> get out </p>
+<% end %>
