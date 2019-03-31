@@ -17,7 +17,7 @@ customBtn.addEventListener("click", function() {
     if (realFileBtn.value) {
       customTxt.innerHTML =  realFileBtn.value.match(
         /[\/\\]([\w\d\s\.\-\(\)]+)$/
-      )[1].slice(0,14) + " ...";
+      )[1].slice(0,6) + " ...";
 
       customUpBtn.style.color = "#E2DEDC";
       customUpBtn.classList.remove("disabled")
