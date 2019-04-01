@@ -1,14 +1,14 @@
 
 fr:
   hello: "Hello world"
-  browse: "rechercher l'image"
+  browse: "ajouter votre image"
   option: "anecdote optionelle"
   file: "aucune image"
   upload: "envoyer"
   about: "À PROPOS"
-  back: "accueil"
+  back: "l'accueil"
   thanks: "merci!"
-  success: "ca a marche"
+  success_html: "L'image a bien &eacute;t&eacute;e re&ccedil;ue "
   intro_html: "Cette campagne invite &agrave; la cr&eacute;ation d’une police de caract&egrave;res collective:"
   title_html: "&eacute;rographie  (<i>&eacute;r&ocirc;s</i> : d&eacute;sir – <i>graphein</i> : &eacute;crire)"
   steps_html: "

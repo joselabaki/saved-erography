@@ -214,7 +214,21 @@ font-size: 15px;
 
 
 #thank-you{
-  color: white;
+  color: $mycolor;
   font-size: 45pt;
   font-family: 'Serif Italic'
+};
+
+#t-success{
+  font-family: 'UntitledSans' , sans-serif;
+  color: $mycolor;
+  font-size: 15px;
+a {
+  font-family: 'UntitledSans' , sans-serif;
+  color: $mycolor;
+  font-size: 16px;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid $mycolor ;
+}
 }

@@ -14,8 +14,13 @@
     src:font-url('Renamed.ttf');
 }
 
- html{height: 100%;}
+html{height: 100%;}
 
-body {background-color: black;}
+body {background-color: #000316;}
 
 $mycolor: #E2DEDC;
+
+* {
+  font-family: "Untitled Sans" , sans-serif;
+  color: $mycolor;
+}

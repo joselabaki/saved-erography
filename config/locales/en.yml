@@ -8,7 +8,7 @@ en:
   upload: "upload"
   about: "ABOUT"
   thanks: "thank you!"
-  success: "it works"
+  success_html: "it works"
   back: "home"
   intro_html: "This is a campaign for the creation of a open-source typeface"
   title_html: "&eacute;rographie  (<i>&eacute;r&ocirc;s</i> : desire – <i>graphein</i> : write)"
