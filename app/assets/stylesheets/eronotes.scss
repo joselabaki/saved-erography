@@ -63,8 +63,13 @@
   display: inline-block;
   cursor: pointer;
 }
+
 #browse-btn{
   padding-top: 0px;
+}
+
+#real-file{
+  cursor: pointer;
 }
 
 .disabled{
@@ -210,4 +215,6 @@ font-size: 15px;
 
 #thank-you{
   color: white;
+  font-size: 45pt;
+  font-family: 'Serif Italic'
 }
