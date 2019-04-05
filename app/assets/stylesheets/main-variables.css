@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Untitled Sans';
+    src:url('UntitledSansWeb.ttf');
+
+};
+
+@font-face {
+    font-family: 'Untitled Serif';
+    src:url('UntitledSerifWeb.otf');
+};
+
+@font-face {
+  font-family: 'Serif Italic';
+    src:url('Renamed.ttf');
+}
+;
