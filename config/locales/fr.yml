@@ -1,6 +1,8 @@
 
 fr:
   hello: "Hello world"
+  lang: "fr"
+  desc_html: "Ce site est une invitation &agrave; la cr&eacute;ation &rsquo;d'&eacute;rographie&rsquo;, une police de caract&egrave;res collective, design d'une typographie d&eacute;ssin&eacute;e par orgasmes"
   browse: "ajouter votre image"
   option: "anecdote optionelle"
   file: "aucune image"
