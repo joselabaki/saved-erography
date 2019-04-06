@@ -1,0 +1,21 @@
+<% if browser.device.mobile? %>
+<div class="wrapper-phone ">
+  <div class="logo"><%= inline_svg 'logo.svg' %> </div>
+
+  <div class="error-page">
+    <p class="error-page-line"><%= t('error500_html') %><%= link_to t('back') , root_path %></p>
+    </div>
+</div>
+
+
+
+
+<%else%>
+<div class="wrapper ">
+  <div class="logo"><%= inline_svg 'logo.svg' %> </div>
+
+  <div class="error-page-desk">
+    <p class="error-page-line"><%= t('error500_html') %><%= link_to t('back') , root_path %></p>
+    </div>
+</div>
+<%end%>

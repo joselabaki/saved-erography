@@ -39,3 +39,9 @@ fr:
             La police et ses d&eacute;clinaisons seront expos&eacute;es sur ce site le xx/xx/xx accompagn&eacute;es d'un court-m&eacute;trage documentaire. </p>
             <p><span class="question">Plus de questions?</span><br>
             <span id="mailus"><a href="mailto:contact@erographie.com"> contactez-nous </a></span></p>
+  error500_html: >
+                500 <br>Erreur du serveur <br> Retourner &agrave;
+  error404_html: >
+                404 <br>Cette page n'existe pas <br> Retourner &agrave;
+  error422_html: >
+                422 <br>Acc&egrave;s interdit<br> Retourner &agrave;

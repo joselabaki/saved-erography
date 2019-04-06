@@ -42,3 +42,9 @@ en:
             The typeface and the fonts will be displayed on this website on the xx/xx/xx. along with short-movie / documentary. </p>
             <p><span class="question">More questions?</span><br>
             <span id="mailus"><a href="mailto:contact@erographie.com"> contact us </a></span></p>
+  error500_html: >
+                500 <br> Server Error <br> Go back
+  error404_html: >
+                404 <br>This page does not exist <br> Go back
+  error422_html: >
+                422 <br>Forbidden Access <br> Go back
