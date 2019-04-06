@@ -27,5 +27,15 @@
   <body>
 
     <%= yield %>
+
+<% if browser.device.mobile? %>
+<div class="wrapper-phone copyr">
+  <p id="copyr">&copy; Jos&eacute; Labaki - Heterodox 2019</p>
+</div>
+<%else%>
+<div class="wrapper copyr">
+  <p id="copyr">&copy; Jos&eacute; Labaki - Heterodox 2019</p>
+</div>
+<%end%>
   </body>
 </html>
