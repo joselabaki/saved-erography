@@ -51,7 +51,7 @@
 
 }
 
-.illustration{width: 51px;}
+.illustration{width: 45px;}
 .hidden{display: none;}
 .show{display: flex;}
 
@@ -232,3 +232,14 @@ a {
   border-bottom: 1px solid $mycolor ;
 }
 }
+
+///////////////////////////
+.copyr{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  p{ font-family: 'UntitledSans' , sans-serif;
+  font-size: 8pt;
+  color: $mycolor;
+  opacity: .7;
+}}
