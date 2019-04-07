@@ -9,6 +9,7 @@ fr:
   upload: "envoyer"
   about: "À PROPOS"
   back: "l'accueil"
+  back-about: "accueil"
   thanks: "merci!"
   success_html: "L'image a bien &eacute;t&eacute;e re&ccedil;ue "
   another_html: 'pour en envoyer une autre, retourner &agrave; '
