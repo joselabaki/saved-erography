@@ -44,13 +44,11 @@ customBtn.addEventListener("click", function() {
 
 };
 
-const copyr = document.getElementById("copyr");
 
-console.log(window.location.pathname);
-if (window.location.pathname === '/fr/about' || window.location.pathname === '/en/about' ) {
-  console.log('okay');
-    copyr.style.display = 'none'
-}
+window.addEventListener("beforeunload", function (event) {
+console.log("ok")
+});
+
 
 
 });

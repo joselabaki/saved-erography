@@ -24,14 +24,17 @@
     <span class="abouttile-phone">FAQ</span>
     <span id="c-arrow"><%= inline_svg 'c-arrow'%></span>
     <span id="close-faq"><%= inline_svg 'close-faq'%></span>
-    <div class="faq-c-phone">
-    <%= t('faq_html') %>
-    </div>
+    <div class="faq-c-phone"><%= t('faq_html') %>  </div>
   </div>
 
+  <div class="bpa-cont">
+
 <div class="bottom-phone-about">
-  <div class="link-1"><%= link_to t('back-about') , root_path  %></div>
+  <div class="link-1" id="link-1"><%= link_to t('back-about') , root_path  %></div>
   <div class="illustration-phone"> <%= inline_svg "Illu.svg" %></div>
-  <div class="link-2"><%= link_to_unless_current "FR" , locale: :fr %> - <%= link_to_unless_current "EN" , locale: :en%></div>
+  <div class="link-2"><%= link_to_unless_current "FR" , locale: :fr %> - <%= link_to_unless_current "EN" , locale: :en%></div></div>
 </div>
+
+
+
 </div>

@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#E2DEDC" />
 
 
-    <meta name="description" content="<%= t('desc_html')%>" />
+    <meta name="description" content="This is an invitation to participate to the design of &eacute;rographie, a crowd-sourced typeface made in orgasms" />
 
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -28,14 +28,6 @@
 
     <%= yield %>
 
-<% if browser.device.mobile? %>
-<div class="copyr-phone">
-  <p id="copyr">&copy; Jos&eacute; Labaki - Heterodox 2019</p>
-</div>
-<%else%>
-<div class="wrapper copyr">
-  <p id="copyr">&copy; Jos&eacute; Labaki - Heterodox 2019</p>
-</div>
-<%end%>
+
   </body>
 </html>

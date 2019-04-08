@@ -39,7 +39,7 @@
 }
 
 .illustration-phone{
-  width: 30px;
+  width: 25px;
 }
 
 ////
@@ -50,23 +50,24 @@
 .abouttile-phone{
   font-size: 17px;
 }
+.bpa-cont {
+  display: grid;
+  justify-items: center;
+}
 
 .bottom-phone-about{
-  // margin: 0 auto;
-  margin-top: 100px;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-  width: 300px;
   font-family: "Untitled Sans";
   text-transform: uppercase;
   font-size: 14px;
-  position: fixed;
   bottom: 0;
-  background-color:$myblack;
-  padding-top: 5px;
-
+  padding-bottom: 25px;
+  position: fixed;
+background-color: $myblack;
 
 }
 

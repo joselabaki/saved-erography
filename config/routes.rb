@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     get '/about' => 'eronotes#about'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-    root 'eronotes#new'
+    root 'eronotes#new' 
     get '/404' , to: 'errors#not_found'
     get '/422' , to: 'errors#forbidden'
     get '/500' , to: 'errors#server_error'
