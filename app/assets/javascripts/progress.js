@@ -44,25 +44,13 @@ data : formData,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   $(".link-2").click(function() {
        window.setTimeout(function(){window.location.reload()}, 150);
           });
 
-
+$(".link-1").click(function() {
+               window.setTimeout(function(){window.location.reload()}, 150);
+                  });
 
 
 
